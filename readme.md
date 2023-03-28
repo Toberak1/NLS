@@ -29,9 +29,9 @@ permalink: /index/
 <div class="rulebooks-section">
   
   <h2 class="rulebooks-subtitle">RULEBOOKS</h2>
-  <a href="rulebook" class="rulebooks-button">English</a>
-  <a href="rulebook-in-spanish" class="rulebooks-button">Español</a>
-  <a href="rulebook-in-russian" class="rulebooks-button">Русский</a>
+  <a href="[rulebook](https://toberak1.github.io/NSL/rulebook/)" class="rulebooks-button">English</a>
+  <a href="[rulebook-in-spanish](https://toberak1.github.io/NSL/rulebook-in-spanish/)" class="rulebooks-button">Español</a>
+  <a href="[rulebook-in-russian](https://toberak1.github.io/NSL/rulebook-in-russian/)" class="rulebooks-button">Русский</a>
 </div>
 
 <div class="section-bg">

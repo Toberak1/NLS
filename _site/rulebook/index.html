@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+  <title>English rulebook</title>
+  <style>
+    body {
+      font-family: 'Lato', sans-serif;
+      background: black;
+      color: #f1f1f1;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      background-color: black;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .logo img {
+      display: inline-block;
+      width: 100%;
+    }
+
+    .banner {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      /*height: 500px;*/
+      align-items: center;
+      padding: 20px;
+      background-image: url('https://toberak.files.wordpress.com/2023/03/nsl-banner-red.png');
+      background-size: cover;
+    }
+
+    .banner a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 10px;
+      border-radius: 16px;
+    }
+
+    .banner a.youtube {
+      background-color: #FF0000;
+    }
+
+    .banner a.discord {
+      background-color: #7289DA;
+    }
+
+    .banner a.twitter {
+      background-color: #1DA1F2;
+    }
+
+    .text {
+      padding: 20px;
+      text-align: center;
+      width: 40%;
+      background-color: #00000080;
+      border-radius: 16px;
+
+    }
+
+    .text h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .text p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 10px;
+
+
+    }
+
+    .rulebooks-section {
+      /*background-image: url('https://toberak.files.wordpress.com/2023/03/fondo-globo.png');*/
+      background-size: cover;
+      background-position: center;
+      padding-top: 80px;
+      padding-bottom: 80px;
+      text-align: center;
+    }
+
+    .rulebooks-subtitle {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+      color: #f1f1f1;
+      
+    }
+
+    .rulebooks-button {
+      display: inline-block;
+      background-color: #fff;
+      color: #000;
+      padding: 16px 32px;
+      border-radius: 8px;
+      margin: 0 10px;
+      font-size: 1.5rem;
+      text-decoration: none;
+    }
+
+    .award-subtitle {
+      text-align: center;
+      background-color: #00000080;
+      padding: 24px 0;
+    }
+    .section-bg {
+      background-image: url('https://toberak.files.wordpress.com/2023/03/fondo-cr.jpg');
+      background-size: cover;
+      background-position: center;
+      /*height: 600px;*/
+
+      /* Ajusta la altura según tu necesidad */
+    }
+
+    .centered-image {
+      text-align: center;
+      padding-bottom: 24px;
+    }
+
+    .centered-image a {
+     /* display: inline-block;*/
+      /*background-color: #333;*/
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+
+    .centered-image a:hover {
+      transform: scale(0.98);
+      transition: 1s;
+    }
+
+
+    .centered-image img {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 16px;
+    }
+
+    .centered-image h2 {
+      background: #00000080;
+      padding: 10px;
+      border-radius: 24px;
+    }
+
+    .section {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      /*height: 500px;*/
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-bottom: 20px;
+    }
+
+
+    .info h3 {
+      margin-top: 0;
+      font-size: 36px;
+    }
+
+    .info h4,
+    .info h5 {
+      margin: 10px 0;
+      font-size: 24px;
+    }
+
+    .info h5 {
+      margin-top: 20px;
+    }
+
+    .info ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      background-color: #00000080;
+      border-radius: 16px;
+      padding: 20px;
+      text-align: left;
+    }
+
+    .info li {
+      margin: 10px 0;
+      font-size: 20px;
+      line-height: 1.5;
+    }
+
+    .imagen-footer {
+      width: 100%;
+      padding-top: 20px;
+    }
+
+    @media only screen and (max-width: 970px) {
+      .text {
+        padding: 10px;
+        width: 90%;
+
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      .container {
+        max-width: 100%;
+        padding: 0 20px;
+      }
+
+      .logo {
+        padding: 10px;
+      }
+
+      .banner {
+
+        padding: 10px;
+      }
+
+      .text {
+        padding: 10px;
+        width: 90%;
+        background-color: #000;
+      }
+
+      .text h1 {
+        font-size: 24px;
+      }
+
+      .text p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h2 id="no-sweat-league">No Sweat League</h2>
+
+<p>NSL Premier Edition 1 Rulebook</p>
+
+<p><strong>Disclaimer</strong></p>
+
+<p>The following set of rules apply to all players and staff of participating teams. Violations of these rules will be handled accordingly. By agreeing to participate, you  also agree with the rules indicated in this document. The rulebook is subject to change at any given time by NSL staff.</p>
+
+<p><strong>Registration &amp; Rosters</strong></p>
+
+<ul>
+  <li>One player may ONLY play for 1 team with ONLY ONE account. Violations of this rule will be handled as a Fair Play violation.</li>
+  <li>A team may have a limited number of players on their roster (SEE BELOW).
+    <ul>
+      <li>Team staff may play but MUST be included in the roster with their player and discord tag, mentioned as a player.</li>
+      <li>ROSTER LIMITS:
+        <ul>
+          <li>Teams may have between 6-12 players during GROUP STAGE.</li>
+          <li>Teams may have between 6-12 players during PLAYOFFS.</li>
+        </ul>
+      </li>
+      <li>Rosters may only be changed during “roster change periods”. A “roster change period” will happen once in the middle of the group stage and once before playoffs. During each roster change, teams will be given two changes as long as they comply with the minimum and maximum roster limits. In the event a player receives a ban for any reason by Supercell, the account will not be allowed to play until the ban is over. In the event of a permaban, the account will NOT be able to be replaced until roster changes are open. </li>
+      <li>Banned players may not be replaced before roster changes unless it violates the roster minimum.</li>
+      <li>Players who wish to change their account such as switching to their main or mini account will NOT be allowed unless during roster change periods. </li>
+      <li>Players who are discovered to be in more than one roster may NOT be replaced, unless during a roster change period.</li>
+      <li>In-game name changes are allowed, as long as the correct player tag is provided in the original roster. You may contact NSL staff via TicketTool or ModMail if you experience any difficulty with regard to this matter.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Match Format</strong></p>
+
+<ul>
+  <li>For the Group Stage:
+    <ul>
+      <li>Set 1: 2vs2 Best of 3 (1 universal card ban per team)</li>
+      <li>Set 2: 4vs4 King of the Hill (No card bans)</li>
+      <li>Set 3: 1vs1 Best of 3 (1 universal card ban per team)
+        <ul>
+          <li>A player may play up to 2 sets in this stage.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>For the PLAYOFFS
+    <ul>
+      <li>Set 1: 2vs2 Best of 3 (1 universal card ban per team)</li>
+      <li>Set 2: 1vs1 Duels Best of 3 (No card bans, in game duels)</li>
+      <li>Set 3: 3vs3 King of the Hill (No card bans)</li>
+      <li>Set 4: 1vs1 Duels Best of 3 (No card bans, in game duels)</li>
+      <li>Set 5: 1vs1 Best of 5 (1 universal card ban per team)
+        <ul>
+          <li>A player may play up to 3 sets in this stage.</li>
+          <li>Set 2 and Set 4 will be played by different players.</li>
+          <li>Each team gets one optional 3 minute timeout which they may use at ANY time</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Sets must be played in order, no exception to this rule, EVEN IF BOTH MANAGERS AGREE, if it’s found out that a match was played in a different order of sets or a different format, the match WON’T BE COUNTED, and will need to be replayed. </li>
+  <li>Only ONE sub may be used in any of the sets, as long as they’re in the roster and the sub is stated in the same message as the lineup.
+    <ul>
+      <li> A PLAYER MAY NOT BE SUBBED IN AFTER THEY WERE SUBBED OUT. </li>
+      <li>A player may not be subbed out for another player once they’ve played 1 or more games in the KOTH set.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Scheduling and Reporting</strong></p>
+
+<ul>
+  <li>When a time and date is decided on for a match, a captain must immediately report the match information in the Google form located in #submit-match-schedules </li>
+  <li>When a match is concluded, either the winning captain, losing captain, or a referee must immediately report the match result in #submitting results in the correct channel</li>
+  <li>If a team fails to show up within 10 minutes of their scheduled match time, their opponent can claim a free win. Screenshots will be required and MUST be sent to TicketMaster. </li>
+  <li>If a match is not scheduled or played by the given deadline, a 0-0 loss for both teams will be entered.</li>
+  <li>In QUARTERFINALS and beyond, ALL matches will be auto-scheduled.</li>
+  <li>
+    <p>If BOTH teams agree, the time of the game. The date of the game may be moved to only 1 day before or 1 day after the time given by the league. </p>
+  </li>
+  <li>Auto-scheduled times (if needed) will be as follows based on the involved team’s regions:
+    <ul>
+      <li>NA vs NA 9pm EST </li>
+      <li>EU vs EU 9pm CET</li>
+      <li>NA vs EU 5pm EST/11pm CET</li>
+    </ul>
+  </li>
+  <li>Tiebreakers will be as follows:
+    <ul>
+      <li>Points Difference (sets won - sets lost)</li>
+      <li>Head to Head</li>
+      <li>Median-Buchholz System</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Match Regulations</strong></p>
+
+<ul>
+  <li>Only managers and referees/admins may talk in clan chat (it is recommended to give these people elder/co-leader so they stand out.) </li>
+  <li>Sportsmanship is an expectation: toxicity, BM in clan chat, and other unsportsmanlike behavior is not tolerated in this league and may be punished.
+    <ul>
+      <li>In game BM is FINE, as long as it’s not in the clan chat</li>
+      <li>Managers/Players may dm Modmail/TicketTool to report unsportsmanlike behavior.</li>
+    </ul>
+  </li>
+  <li>Players have 2 mins to request and accept matches after being prompted to do so. You may claim a Free win (FW) if you say “We will claim FW if the player doesn’t accept within the next 30 seconds.” You must count down from 30, 15, 10 9 8….3, 2, 1 to claim the FW. If a player uses a banned card, the opponent will get a free win for that game only.
+    <ul>
+      <li>However, if a player has a banned card in their deck but does not use it, then that’s fine.</li>
+    </ul>
+  </li>
+  <li>In the event of technical difficulties, refer to the following guidelines:
+    <ul>
+      <li>If a game-breaking bug occurs (such as the one that kicks a player back into clan chat during a battle) and the affected player can provide solid evidence of said bug such as saying “I was kicked out in clan chat”, the affected game must be replayed.</li>
+      <li>If a player lags out due to a bad internet connection or a slow device, the game will NOT be replayed and the match result will be accepted as the players/managers are responsible for their own internet connection.</li>
+      <li>If a manager lags out/disconnects another player/manager from that team may announce and take over. </li>
+    </ul>
+  </li>
+  <li>All cards will be allowed for the whole duration of the league.</li>
+  <li>In qualifiers, groups, and the first 2 rounds of playoffs, lineups and bans (if applicable) will be declared in clan chat during the match.</li>
+</ul>
+
+<p><strong>League Structure:</strong></p>
+
+<p><strong>Group Stage:</strong></p>
+
+<ul>
+  <li>32 teams will be split into 8 groups of 4 teams each. 6 week long Group Stage (1 round per week, to be played in chronological order provided in the challonge). </li>
+  <li>Groups based on draw, everyone plays each other twice in Group Stage.</li>
+</ul>
+
+<p><strong>Playoffs:</strong></p>
+
+<ul>
+  <li>Top 2 from each group will compete in a single elimination bracket until we have a champion. </li>
+  <li>There will be a bronze match.</li>
+</ul>
+
+<p><strong>Prize Pool</strong></p>
+
+<ul>
+  <li>The prizepool will be distributed ONLY through PayPal l, which will be received by the winning team CEO.</li>
+  <li>The prize split is as follows:
+    <ul>
+      <li>1st Place - 50% </li>
+      <li>2nd Place - 30%</li>
+      <li>3rd Place - 20%</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Entrance fees</strong></p>
+
+<ul>
+  <li>10$ (USD) per Team</li>
+  <li>A refund of the entrance fee is excluded</li>
+</ul>
+
+<p><strong>Fair Play</strong></p>
+
+<p>Fair play is an integral concept in any league. Failure to abide by these fair play regulations will result in a DQ and a possible ban from competition in NSL.</p>
+
+<p>The following are STRICTLY PROHIBITED in NSL:</p>
+
+<ul>
+  <li>Any slander or disrespectful language used in league clans or on any other messaging platform including direct messages, twitter, and the league server against opposing players, teams, or NSL is strictly prohibited and will be investigated for consequences. </li>
+  <li>Using a shared account during a match
+    <ul>
+      <li>A shared account is defined as an account that more than one person has access to during the season.</li>
+    </ul>
+  </li>
+  <li>Using a hacked or modified client </li>
+  <li>Sabotaging your opponent in any way, shape or form.</li>
+  <li>Lying to opposing managers or league officials.</li>
+  <li>Additionally, anyone banned from NSL will not be allowed in a NSL clan for any reason. Any team that willingly lets a banned person into an official NSL match clan for any reason will be reprimanded accordingly.</li>
+</ul>
+
+<p>To report a fair play offense, DM modmail. All fair play reports are rigorously investigated.</p>
+
+<p>Any team that stands to win money (1st, 2nd, and 3rd places) will be automatically investigated for fair play before any money is released. </p>
+
+<p>Fair play offenses may lead to match results being retroactively updated depending on the nature of the offense.</p>
+
+<p><strong>Server Rules</strong></p>
+
+<p>1. Be Respectful - No offensive messages or nicknames. </p>
+
+<p>- Minimal swearing is allowed as long as it is not directed towards another person.</p>
+
+<p> - No harassment of any kind. </p>
+
+<p>2. Be Mature </p>
+
+<p>- Toxic behavior is prohibited. </p>
+
+<p>- Do not start arguments. </p>
+
+<p>3. No NSFW Content </p>
+
+<p>- This includes gory or sexual content in images, profile pictures, or nicknames. </p>
+
+<p>4. No Spam </p>
+
+<p>- This includes but is not limited to: @mention spam, image spam, and message spam.</p>
+
+<p> - Use the proper channels for each topic. </p>
+
+<p>5. Abide by the Terms of Service</p>
+
+<p> - Discord TOS: https://discordapp.com/tos </p>
+
+<p>6. Use channels appropriately</p>
+
+<p>7. There may be situations not covered by the rules or times when the rules may not fit the situation. If this happens, staff are trusted to handle the situation appropriately. If you have a complaint concerning a staff member, you may submit the complaint through a direct message to @Seemant#2569</p>
+
+<p>8.  Infractions of the rules will typically follow a warn/warn/mute/ban structure, but the consequences may differ depending on the severity of your offense. </p>
+
+<p><strong>Ignorance of these rules is not an excuse.</strong></p>
+
+<h2 id="get-in-touch"><strong>Get in touch</strong></h2>
+
+<p>NSL is always available for side collaborations and talks worldwide. If you want to chat or anything else, don’t hesitate in reaching out.</p>
+
+<p><a href="https://discord.gg/P2RYy4R2sr">Discord</a></p>
+
+<p><a href="https://twitter.com/NSL_CR">Twitter</a></p>
+
+<p><a href="https://www.youtube.com/channel/UC9sEAnMCHfXI7Rx6Ic0NwKw">Youtube</a></p>
+
+<h2 id="since-2019-creating-competitive-events-in-clashroyale"><strong>**</strong><strong>Since 2019 creating Competitive events in @ClashRoyale</strong><strong>**</strong></h2>
+
+<p>We have experience in organizing friendly and inclusive <strong>global events since August 2019</strong>. Now we are here to continue growing together with you. We also partner with multilingual collaborators to bring amazing events, <strong>for the community</strong>, by the community.<br />
+This is a <strong>Clash Royale esports leagues</strong></p>
+
+  </div>
+</body>
+
+</html>
